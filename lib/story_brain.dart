@@ -1,4 +1,3 @@
-//TODO: Step 6 - import the story.dart file into this file.
 //DONE: Step 6 - import the story.dart file into this file.
 import 'story.dart';
 
@@ -45,7 +44,6 @@ class StoryBrain {
     return _storyData[_storyNumber].storyTitle;
   }
 
-//TODO: Step 23 - Use the storyNumber property inside getStory(), getChoice1() and getChoice2() so that it gets the updated story and choices rather than always just the first (0th) one.
 //DONE: Step 11 - Create a method called getChoice1() that returns the text for the first choice1 from _storyData.
   String getChoice1() {
     return _storyData[_storyNumber].choice1;
